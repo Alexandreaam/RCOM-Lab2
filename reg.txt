@@ -1,0 +1,15 @@
+tux31:
+IP- 172.16.30.1
+MAC- 00:0f:fe:8b:e4:4d
+
+tux32:
+IP- 172.16.31.0
+MAC- 00:21:5a:61:30:63
+
+tux34:
+IP- 172.16.30.254
+MAC- 00:21:5a:5a:7d:74
+
+EXP2
+4- tux31 liga ao tux34 mas nao ao tux32, pq estao em vlans diferentes
+8- no vlan2 o ping broadcast nao recebe resposta pq o tux32 é o unico q esta ligado
